@@ -39,3 +39,8 @@ Coding
 - Snakemake
 - Biomake
 
+Bioinformatic data types
+- Genotype data
+- Methylation data
+- CNV
+- gene expression
