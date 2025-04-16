@@ -17,7 +17,7 @@ Some questions worth asking when starting a piece of work:
 - 2019-2021: Operations Analyst at Arm ltd (2019-2021).
 - 2015-2019: Undergraduate Biology with proffessional placement year at the University of Bath. My placement year (2017-2018) was conducted at the Frozen Ark Project, located within the University of Cardiff. 
 
-## Sections (TBC - link will be live when page written):
+## Topics (link live when complete):
 File types
 
 Converting File types
@@ -36,7 +36,7 @@ Coding
 - R
 - Python
 - HPC environments
-- Conda
+- [Conda / Mamba](docs/setup_miniforge/miniforge_setup.md)
 - Snakemake
 - Biomake
 
