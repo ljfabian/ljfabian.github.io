@@ -9,7 +9,7 @@ Some questions worth asking when starting a piece of work:
 - How easy is it to change and adapt?
 - How specialised is this going to be?
 - How much time will optimizing the code take, vs the time it will save (culmulatively)?
-- (YAGNI)[https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it]
+- [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 ### My experience:
 - Current: I work as a Bioinformatics and Biobank data specialist at the university of Bristol. Specifically for the Children of the 90s study, otherwise known as Avon Longitudinal Study of Parents and Children (ALSPAC). 
