@@ -132,7 +132,7 @@ mamba env create -f myenv.ymaml
 ```
 
 ## other Useful commands
-(Abdullah Al Imran example cheatsheet)[https://www.imranabdullah.com/2021-08-21/Conda-and-Mamba-Commands-for-Managing-Virtual-Environments]
+[Abdullah Al Imran example cheatsheet](https://www.imranabdullah.com/2021-08-21/Conda-and-Mamba-Commands-for-Managing-Virtual-Environments)
 
 update mamba:
 ```bash
