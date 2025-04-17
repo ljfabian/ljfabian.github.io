@@ -11,7 +11,7 @@ Other channels, such as conda-forge (default used by miniforge3) and bioconda do
 Pip can be used in place of the channels if you initiate a environment, allowing you to just use the default for accessing python packages. UV does much the same as pip for python packages, but can generate environments and handle dependencies and version control automatically on install and update. Mamba or conda are often better for installing a wider range of packages and tools which are not solely python or R packages. Pixi aims to do the same, using UV for python handling (or atleast plans to in the future).
 
 ## Installing miniforge3 on BC4/equivalent HPC system
-These instructions are adapted from University of Bristol ACRC documentation: https://www.acrc.bris.ac.uk/protected/hpc-docs/software/own_software.html
+These instructions are adapted from University of Bristol [ACRC documentation](https://www.acrc.bris.ac.uk/protected/hpc-docs/software/own_software.html)
 
 If based at UoB, I would recommend following these instructions as they are likely updated more regularly. 
 
