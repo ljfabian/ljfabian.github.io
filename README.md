@@ -1,5 +1,5 @@
 # Bioinformatics notebook
-## What is this? 
+## Description 
 This is a general resource of different code snippets from my time working within Bioinformatics. This is  to act as documentation for myself, so if/when I need to re-visit some general basic or simple tasks in the future I have a single place to look.
 
 This will include snippets and links from official documentation of variety of softwares and other locations. These will be The most appropriate sources of information, especially when issues might arise. I am just collecting and condensing information I find useful within this field. It by no means covers everything and there will always be alternate ways to do tasks which may or may not be more efficient. 
