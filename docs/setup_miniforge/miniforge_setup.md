@@ -1,6 +1,6 @@
 # Miniforge3 setup on BC4
 ## Description
-To use software which has not previously been installed on HPC systems, or custom versions, you can use distribution packages such as [miniforge3](https://github.com/conda-forge/miniforge), (uv)[https://docs.astral.sh/uv/], (pixi.sh)[https://pixi.sh/latest/] or [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main). These can all download packages which may be required for various workflows. 
+To use software which has not previously been installed on HPC systems, or custom versions, you can use distribution packages such as [miniforge3](https://github.com/conda-forge/miniforge), [uv](https://docs.astral.sh/uv/), [pixi.sh](https://pixi.sh/latest/) or [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main). These can all download packages which may be required for various workflows. 
 
 These are _usually_ fairly lightweight (<1Gb) until you intiate and start using them to install numerous softwares and environments, at which point they can rapidly inflate in size.
 
