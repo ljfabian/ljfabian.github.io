@@ -15,7 +15,7 @@ Some questions worth asking when starting a piece of work:
 - Current: I work as a Bioinformatics and Biobank data specialist at the university of Bristol. Specifically for the Children of the 90s study, otherwise known as Avon Longitudinal Study of Parents and Children (ALSPAC). 
 - 2021-22: Masters in Bioinformatics with Genetic Epidemiology at Cardiff University.
 - 2019-2021: Operations Analyst at Arm ltd (2019-2021).
-- 2015-2019: Undergraduate Biology with proffessional placement year at the University of Bath. My placement year (2017-2018) was conducted at the Frozen Ark Project, located within the University of Cardiff. 
+- 2015-2019: Undergraduate Biology with proffessional placement year at the University of Bath. Placement at the Frozen Ark Project, located within the University of Cardiff. 
 
 ## Topics (link live when complete):
 File types
@@ -37,7 +37,7 @@ Coding
 - Python
 - HPC environments
 - [Conda / Mamba](docs/setup_miniforge/miniforge_setup.md)
-- Snakemake
+- [Snakemake](docs/snakemake/general.md)
 - Biomake
 
 Bioinformatic data types
