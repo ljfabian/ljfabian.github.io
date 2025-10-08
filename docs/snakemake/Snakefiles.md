@@ -21,7 +21,13 @@ rule all:
         'path/to/output/file'
 ```
 
-Snakemake will look at the *input* of the _all_ rule, and look to see if the files already exist. If they do, it will report the files exist and there is no need to waste resources and run. If they don't exist, Snakemake will then look through all of the other rules in the Snakefile, trying to find where the *input* of the _all_ rule is in the *output* of another rule or rules. This could look like:
+Snakemake will look at the *input* of the _all_ rule, and look to see if the files already exist. If they do, it will report the files exist and there is no need to waste resources and run. Please note, if there are changes to the Snakefile between runs, even if there is the required *output* file, it will still re-run as the output is generated on an old workflow.  
+
+If they don't exist, Snakemake will then look through all of the other rules in the Snakefile, trying to find where the *input* of the _all_ rule is in the *output* of another rule or rules. These are called target rules, and are used to define build targets.
+
+The target rule needs to be explicit in what the required files are. It cannot use the wildcards across the file, so this is the main place you have to be explicit. 
+
+These could look like:
 
 ```python
 rule a:
@@ -51,8 +57,10 @@ rule b:
 
 This would call both rule _a_ to get the original required input file, but also rule _b_. As _b_ also has an input file, snakemake will do the same thing as it did for all. It will check if the *input* exists already, and if not, search for another rule producing this file. This is how you can chain multiple rules together across an entire Snakefile. 
 
+Rules inputs and outputs can actually be reffered to in other rules, making the chaining very explicit: `rules.b.output`
+
 ## Calling snakefiles
-As mentinoed above, you would use ``snakemake all` to call a snakemake workflow to run. You can add additional sections into the call to make it run under certain conditions. 
+As mentioned above, you would use ``snakemake all` to call a snakemake workflow to run. You can add additional sections into the call to make it run under certain conditions. 
 
 If you specify mamba/conda environments that need to be used, you would add:
 - `--use-conda` or `-cdm`. 
